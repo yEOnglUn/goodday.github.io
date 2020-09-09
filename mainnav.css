@@ -1,0 +1,57 @@
+.mainnav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    background: #fa7a20;
+}
+.mainnav li {
+    float: left;
+    
+}
+
+.mainnav li a {
+    color: #fff;
+    width: 80px;
+    padding: 10px 0;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font: 1em "Microsoft YaHei", STXihei;
+}
+
+.current {
+    background: #e4393c;
+}
+.mainnav li a:hover {
+    background: #f30;
+}
+
+.submenu {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: none;
+   position: absolute;
+}
+
+.submenu li {
+   float: none;
+}
+
+.submenu li a {
+   color: #000;
+   padding: 4px 0;
+   font-size: 13px;
+   display: block;
+}
+
+.submenu li a:hover {
+   color: #fff;
+   background: #4899E0;
+}
+
+.mainnav li:hover .submenu {
+   display: block;
+}
